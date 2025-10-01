@@ -1,0 +1,68 @@
+0, 179, CPU execution
+179, 1, Switch to kernel mode
+180, 4, context saved
+184, 1, find vector 6 in memory 0X0639
+185, 1, obtain ISR address
+186, 46, Call device driver
+232, 69, Perform device check
+301, 150, Send device instruction
+451, 1, IRET
+452, 136, CPU execution
+588, 1, Switch to kernel mode
+589, 4, context saved
+593, 1, find vector 6 in memory 0X0639
+594, 125, Store information in memory
+719, 74, reset the io operation
+793, 66, Send standby instruction
+859, 1, IRET
+860, 149, CPU execution
+1009, 1, Switch to kernel mode
+1010, 4, context saved
+1014, 1, find vector 11 in memory 0X01F8
+1015, 1, obtain ISR address
+1016, 322, Call device driver
+1338, 96, Perform device check
+1434, 105, Send device instruction
+1539, 1, IRET
+1540, 14, CPU execution
+1554, 1, Switch to kernel mode
+1555, 4, context saved
+1559, 1, find vector 11 in memory 0X01F8
+1560, 465, Store information in memory
+2025, 23, reset the io operation
+2048, 35, Send standby instruction
+2083, 1, IRET
+2084, 110, CPU execution
+2194, 1, Switch to kernel mode
+2195, 4, context saved
+2199, 1, find vector 19 in memory 0X0765
+2200, 1, obtain ISR address
+2201, 543, Call device driver
+2744, 51, Perform device check
+2795, 58, Send device instruction
+2853, 1, IRET
+2854, 159, CPU execution
+3013, 1, Switch to kernel mode
+3014, 4, context saved
+3018, 1, find vector 19 in memory 0X0765
+3019, 168, Store information in memory
+3187, 314, reset the io operation
+3501, 170, Send standby instruction
+3671, 1, IRET
+3672, 30, CPU execution
+3702, 1, Switch to kernel mode
+3703, 4, context saved
+3707, 1, find vector 11 in memory 0X01F8
+3708, 1, obtain ISR address
+3709, 460, Call device driver
+4169, 24, Perform device check
+4193, 39, Send device instruction
+4232, 1, IRET
+4233, 111, CPU execution
+4344, 1, Switch to kernel mode
+4345, 4, context saved
+4349, 1, find vector 11 in memory 0X01F8
+4350, 187, Store information in memory
+4537, 69, reset the io operation
+4606, 267, Send standby instruction
+4873, 1, IRET

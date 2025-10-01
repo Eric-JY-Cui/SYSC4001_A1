@@ -1,0 +1,221 @@
+0, 139, CPU execution
+139, 1, Switch to kernel mode
+140, 4, context saved
+144, 1, find vector 21 in memory 0X0523
+145, 1, obtain ISR address
+146, -2, Call device driver
+144, 285, Perform device check
+429, 138, Send device instruction
+567, 1, IRET
+568, 153, CPU execution
+721, 1, Switch to kernel mode
+722, 4, context saved
+726, 1, find vector 21 in memory 0X0523
+727, 276, Store information in memory
+1003, 24, reset the io operation
+1027, 121, Send standby instruction
+1148, 1, IRET
+1149, 37, CPU execution
+1186, 1, Switch to kernel mode
+1187, 4, context saved
+1191, 1, find vector 19 in memory 0X0765
+1192, 1, obtain ISR address
+1193, 431, Call device driver
+1624, 104, Perform device check
+1728, 117, Send device instruction
+1845, 1, IRET
+1846, 78, CPU execution
+1924, 1, Switch to kernel mode
+1925, 4, context saved
+1929, 1, find vector 19 in memory 0X0765
+1930, 448, Store information in memory
+2378, 47, reset the io operation
+2425, 157, Send standby instruction
+2582, 1, IRET
+2583, 100, CPU execution
+2683, 1, Switch to kernel mode
+2684, 4, context saved
+2688, 1, find vector 6 in memory 0X0639
+2689, 1, obtain ISR address
+2690, 57, Call device driver
+2747, 188, Perform device check
+2935, 20, Send device instruction
+2955, 1, IRET
+2956, 197, CPU execution
+3153, 1, Switch to kernel mode
+3154, 4, context saved
+3158, 1, find vector 6 in memory 0X0639
+3159, 40, Store information in memory
+3199, 201, reset the io operation
+3400, 24, Send standby instruction
+3424, 1, IRET
+3425, 146, CPU execution
+3571, 1, Switch to kernel mode
+3572, 4, context saved
+3576, 1, find vector 19 in memory 0X0765
+3577, 1, obtain ISR address
+3578, 468, Call device driver
+4046, 154, Perform device check
+4200, 30, Send device instruction
+4230, 1, IRET
+4231, 21, CPU execution
+4252, 1, Switch to kernel mode
+4253, 4, context saved
+4257, 1, find vector 19 in memory 0X0765
+4258, 169, Store information in memory
+4427, 384, reset the io operation
+4811, 99, Send standby instruction
+4910, 1, IRET
+4911, 153, CPU execution
+5064, 1, Switch to kernel mode
+5065, 4, context saved
+5069, 1, find vector 11 in memory 0X01F8
+5070, 1, obtain ISR address
+5071, 437, Call device driver
+5508, 15, Perform device check
+5523, 71, Send device instruction
+5594, 1, IRET
+5595, 192, CPU execution
+5787, 1, Switch to kernel mode
+5788, 4, context saved
+5792, 1, find vector 11 in memory 0X01F8
+5793, 234, Store information in memory
+6027, 132, reset the io operation
+6159, 157, Send standby instruction
+6316, 1, IRET
+6317, 92, CPU execution
+6409, 1, Switch to kernel mode
+6410, 4, context saved
+6414, 1, find vector 21 in memory 0X0523
+6415, 1, obtain ISR address
+6416, 322, Call device driver
+6738, 7, Perform device check
+6745, 92, Send device instruction
+6837, 1, IRET
+6838, 42, CPU execution
+6880, 1, Switch to kernel mode
+6881, 4, context saved
+6885, 1, find vector 21 in memory 0X0523
+6886, 39, Store information in memory
+6925, 132, reset the io operation
+7057, 250, Send standby instruction
+7307, 1, IRET
+7308, 79, CPU execution
+7387, 1, Switch to kernel mode
+7388, 4, context saved
+7392, 1, find vector 19 in memory 0X0765
+7393, 1, obtain ISR address
+7394, 528, Call device driver
+7922, 1, Perform device check
+7923, 123, Send device instruction
+8046, 1, IRET
+8047, 80, CPU execution
+8127, 1, Switch to kernel mode
+8128, 4, context saved
+8132, 1, find vector 19 in memory 0X0765
+8133, 32, Store information in memory
+8165, 142, reset the io operation
+8307, 478, Send standby instruction
+8785, 1, IRET
+8786, 186, CPU execution
+8972, 1, Switch to kernel mode
+8973, 4, context saved
+8977, 1, find vector 6 in memory 0X0639
+8978, 1, obtain ISR address
+8979, 125, Call device driver
+9104, 74, Perform device check
+9178, 66, Send device instruction
+9244, 1, IRET
+9245, 139, CPU execution
+9384, 1, Switch to kernel mode
+9385, 4, context saved
+9389, 1, find vector 6 in memory 0X0639
+9390, 87, Store information in memory
+9477, 5, reset the io operation
+9482, 173, Send standby instruction
+9655, 1, IRET
+9656, 198, CPU execution
+9854, 1, Switch to kernel mode
+9855, 4, context saved
+9859, 1, find vector 6 in memory 0X0639
+9860, 1, obtain ISR address
+9861, 180, Call device driver
+10041, 67, Perform device check
+10108, 18, Send device instruction
+10126, 1, IRET
+10127, 173, CPU execution
+10300, 1, Switch to kernel mode
+10301, 4, context saved
+10305, 1, find vector 6 in memory 0X0639
+10306, 232, Store information in memory
+10538, 8, reset the io operation
+10546, 25, Send standby instruction
+10571, 1, IRET
+10572, 90, CPU execution
+10662, 1, Switch to kernel mode
+10663, 4, context saved
+10667, 1, find vector 19 in memory 0X0765
+10668, 1, obtain ISR address
+10669, 427, Call device driver
+11096, 105, Perform device check
+11201, 120, Send device instruction
+11321, 1, IRET
+11322, 180, CPU execution
+11502, 1, Switch to kernel mode
+11503, 4, context saved
+11507, 1, find vector 19 in memory 0X0765
+11508, 393, Store information in memory
+11901, 29, reset the io operation
+11930, 230, Send standby instruction
+12160, 1, IRET
+12161, 25, CPU execution
+12186, 1, Switch to kernel mode
+12187, 4, context saved
+12191, 1, find vector 19 in memory 0X0765
+12192, 1, obtain ISR address
+12193, 563, Call device driver
+12756, 75, Perform device check
+12831, 14, Send device instruction
+12845, 1, IRET
+12846, 16, CPU execution
+12862, 1, Switch to kernel mode
+12863, 4, context saved
+12867, 1, find vector 19 in memory 0X0765
+12868, 415, Store information in memory
+13283, 142, reset the io operation
+13425, 95, Send standby instruction
+13520, 1, IRET
+13521, 198, CPU execution
+13719, 1, Switch to kernel mode
+13720, 4, context saved
+13724, 1, find vector 6 in memory 0X0639
+13725, 1, obtain ISR address
+13726, 17, Call device driver
+13743, 56, Perform device check
+13799, 192, Send device instruction
+13991, 1, IRET
+13992, 91, CPU execution
+14083, 1, Switch to kernel mode
+14084, 4, context saved
+14088, 1, find vector 6 in memory 0X0639
+14089, 206, Store information in memory
+14295, 14, reset the io operation
+14309, 45, Send standby instruction
+14354, 1, IRET
+14355, 182, CPU execution
+14537, 1, Switch to kernel mode
+14538, 4, context saved
+14542, 1, find vector 19 in memory 0X0765
+14543, 1, obtain ISR address
+14544, 9, Call device driver
+14553, 76, Perform device check
+14629, 567, Send device instruction
+15196, 1, IRET
+15197, 125, CPU execution
+15322, 1, Switch to kernel mode
+15323, 4, context saved
+15327, 1, find vector 19 in memory 0X0765
+15328, 535, Store information in memory
+15863, 36, reset the io operation
+15899, 81, Send standby instruction
+15980, 1, IRET

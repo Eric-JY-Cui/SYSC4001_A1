@@ -27,14 +27,14 @@ int main(int argc, char** argv) {
 
     //parse each line of the input trace file
     while(std::getline(input_file, trace)) {
-        //std::cout << execution << std::endl;
+        
+        
         auto [activity, duration_intr] = parse_trace(trace);
+        // std::cout << activity << std::endl;
 
         /******************ADD YOUR SIMULATION CODE HERE*************************/
-
         
-
-
+        duration_intr = duration_intr - 1;
         if (activity == "CPU")
         {
             execution.append(std::to_string(time) + ", " + std::to_string(duration_intr) + ", CPU execution\n");
@@ -51,16 +51,63 @@ int main(int argc, char** argv) {
             time = time + 1;
             execution.append(std::to_string(time) + ", " + "1" + ", obtain ISR address\n");
             time = time + 1;
-            execution.append(std::to_string(time) + ", " + "40" + ", call device driver\n");
-            time = time + delays[duration_intr];
+
+            
+
+            // IO operations
+            int remaining_io = delays[duration_intr];
+            
+            int random_number = rand() % remaining_io - 2;
+            execution.append(std::to_string(time) + ", " + std::to_string(random_number) + ", Call device driver\n");
+            time = time + random_number;
+            remaining_io = remaining_io - random_number;
+            
+            random_number = rand() % remaining_io - 1;
+            execution.append(std::to_string(time) + ", " + std::to_string(random_number) + ", Perform device check\n");
+            time = time + random_number;
+            remaining_io = remaining_io - random_number;
+
+            random_number = remaining_io;
+            execution.append(std::to_string(time) + ", " + std::to_string(random_number) + ", Send device instruction\n");
+            time = time + random_number;
+            remaining_io = remaining_io - random_number;
+
+            
+            //IRET
             execution.append(std::to_string(time) + ", " + "1" + ", IRET\n");
             time = time + 1;
             
         }
         else if (activity == "END_IO")
         {
-            execution.append(std::to_string(time) + ", " + std::to_string(delays[duration_intr]) + ", end of I/O "+ std::to_string(duration_intr)+" interrupt\n");
-            time = time + duration_intr;
+            execution.append(std::to_string(time) + ", " + "1" + ", Switch to kernel mode\n");
+            time = time + 1;
+            execution.append(std::to_string(time) + ", " + "4" + ", context saved\n");
+            time = time + 4;
+            execution.append(std::to_string(time) + ", " + "1" + ", find vector " + std::to_string(duration_intr) + 
+                    " in memory " + vectors[duration_intr] + "\n");
+            time = time + 1;
+
+            // IO operations
+            int remaining_io = delays[duration_intr];
+            int random_number = rand() % remaining_io - 2;
+            execution.append(std::to_string(time) + ", " + std::to_string(random_number) + ", Store information in memory\n");
+            time = time + random_number;
+            remaining_io = remaining_io - random_number;
+            
+            random_number = rand() % remaining_io - 1;
+            execution.append(std::to_string(time) + ", " + std::to_string(random_number) + ", reset the io operation\n");
+            time = time + random_number;
+            remaining_io = remaining_io - random_number;
+
+            random_number = remaining_io;
+            execution.append(std::to_string(time) + ", " + std::to_string(random_number) + ", Send standby instruction\n");
+            time = time + random_number;
+            remaining_io = remaining_io - random_number;
+
+            //IRET
+            execution.append(std::to_string(time) + ", " + "1" + ", IRET\n");
+            time = time + 1;
             
         }
 

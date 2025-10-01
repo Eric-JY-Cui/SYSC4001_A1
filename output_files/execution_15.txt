@@ -1,0 +1,136 @@
+0, 102, CPU execution
+102, 1, Switch to kernel mode
+103, 4, context saved
+107, 1, find vector 11 in memory 0X01F8
+108, 1, obtain ISR address
+109, 49, Call device driver
+158, 9, Perform device check
+167, 465, Send device instruction
+632, 1, IRET
+633, 72, CPU execution
+705, 1, Switch to kernel mode
+706, 4, context saved
+710, 1, find vector 11 in memory 0X01F8
+711, 396, Store information in memory
+1107, 8, reset the io operation
+1115, 119, Send standby instruction
+1234, 1, IRET
+1235, 55, CPU execution
+1290, 1, Switch to kernel mode
+1291, 4, context saved
+1295, 1, find vector 19 in memory 0X0765
+1296, 1, obtain ISR address
+1297, 431, Call device driver
+1728, 104, Perform device check
+1832, 117, Send device instruction
+1949, 1, IRET
+1950, 85, CPU execution
+2035, 1, Switch to kernel mode
+2036, 4, context saved
+2040, 1, find vector 19 in memory 0X0765
+2041, 448, Store information in memory
+2489, 47, reset the io operation
+2536, 157, Send standby instruction
+2693, 1, IRET
+2694, 89, CPU execution
+2783, 1, Switch to kernel mode
+2784, 4, context saved
+2788, 1, find vector 19 in memory 0X0765
+2789, 1, obtain ISR address
+2790, 543, Call device driver
+3333, 51, Perform device check
+3384, 58, Send device instruction
+3442, 1, IRET
+3443, 106, CPU execution
+3549, 1, Switch to kernel mode
+3550, 4, context saved
+3554, 1, find vector 19 in memory 0X0765
+3555, 168, Store information in memory
+3723, 314, reset the io operation
+4037, 170, Send standby instruction
+4207, 1, IRET
+4208, 156, CPU execution
+4364, 1, Switch to kernel mode
+4365, 4, context saved
+4369, 1, find vector 6 in memory 0X0639
+4370, 1, obtain ISR address
+4371, 68, Call device driver
+4439, 102, Perform device check
+4541, 95, Send device instruction
+4636, 1, IRET
+4637, 51, CPU execution
+4688, 1, Switch to kernel mode
+4689, 4, context saved
+4693, 1, find vector 6 in memory 0X0639
+4694, 86, Store information in memory
+4780, 162, reset the io operation
+4942, 17, Send standby instruction
+4959, 1, IRET
+4960, 153, CPU execution
+5113, 1, Switch to kernel mode
+5114, 4, context saved
+5118, 1, find vector 19 in memory 0X0765
+5119, 1, obtain ISR address
+5120, 118, Call device driver
+5238, 83, Perform device check
+5321, 451, Send device instruction
+5772, 1, IRET
+5773, 84, CPU execution
+5857, 1, Switch to kernel mode
+5858, 4, context saved
+5862, 1, find vector 19 in memory 0X0765
+5863, 282, Store information in memory
+6145, 125, reset the io operation
+6270, 245, Send standby instruction
+6515, 1, IRET
+6516, 14, CPU execution
+6530, 1, Switch to kernel mode
+6531, 4, context saved
+6535, 1, find vector 11 in memory 0X01F8
+6536, 1, obtain ISR address
+6537, 296, Call device driver
+6833, 215, Perform device check
+7048, 12, Send device instruction
+7060, 1, IRET
+7061, 103, CPU execution
+7164, 1, Switch to kernel mode
+7165, 4, context saved
+7169, 1, find vector 11 in memory 0X01F8
+7170, 433, Store information in memory
+7603, 68, reset the io operation
+7671, 22, Send standby instruction
+7693, 1, IRET
+7694, 142, CPU execution
+7836, 1, Switch to kernel mode
+7837, 4, context saved
+7841, 1, find vector 11 in memory 0X01F8
+7842, 1, obtain ISR address
+7843, 6, Call device driver
+7849, 423, Perform device check
+8272, 94, Send device instruction
+8366, 1, IRET
+8367, 112, CPU execution
+8479, 1, Switch to kernel mode
+8480, 4, context saved
+8484, 1, find vector 11 in memory 0X01F8
+8485, 470, Store information in memory
+8955, 47, reset the io operation
+9002, 6, Send standby instruction
+9008, 1, IRET
+9009, 145, CPU execution
+9154, 1, Switch to kernel mode
+9155, 4, context saved
+9159, 1, find vector 19 in memory 0X0765
+9160, 1, obtain ISR address
+9161, 177, Call device driver
+9338, 209, Perform device check
+9547, 266, Send device instruction
+9813, 1, IRET
+9814, 77, CPU execution
+9891, 1, Switch to kernel mode
+9892, 4, context saved
+9896, 1, find vector 19 in memory 0X0765
+9897, 351, Store information in memory
+10248, 258, reset the io operation
+10506, 43, Send standby instruction
+10549, 1, IRET
