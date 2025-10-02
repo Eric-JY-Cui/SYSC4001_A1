@@ -1,7 +1,7 @@
 /**
  *
  * @file interrupts.cpp
- * @author Sasisekhar Govind
+ * @author Eric Cui, Aydan Eng
  *
  * source build.sh
  * ./bin/interrupts
@@ -21,8 +21,6 @@ int main(int argc, char** argv) {
 
     /******************ADD YOUR VARIABLES HERE*************************/
     int time = 0;
-
-
     /******************************************************************/
 
     //parse each line of the input trace file
@@ -33,7 +31,6 @@ int main(int argc, char** argv) {
         // std::cout << activity << std::endl;
 
         /******************ADD YOUR SIMULATION CODE HERE*************************/
-        
         duration_intr = duration_intr - 1;
         if (activity == "CPU")
         {
